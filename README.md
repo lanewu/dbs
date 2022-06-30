@@ -9,6 +9,10 @@ English | [简体中文](README-CN.md)
 
 ZettaStor DBS provides enterprise-level business storage solutions with high availability, high performance, easy expansion and easy maintenance for large-scale virtualization, private cloud and container environments. It serves as a solid digital base for core applications.
 
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
 | Features | Community Edition  | Enterprise Edition | 
 | ------------- | ------------- |  ------------- | 
 | Decentralized architecture | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) |
