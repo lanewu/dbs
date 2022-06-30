@@ -9,6 +9,13 @@ English | [简体中文](README-CN.md)
 
 ZettaStor DBS provides enterprise-level business storage solutions with high availability, high performance, easy expansion and easy maintenance for large-scale virtualization, private cloud and container environments. It serves as a solid digital base for core applications.
 
+| Features | Community Edition  | Enterprise Edition | 
+| ------------- | ------------- |  ------------- | 
+| Decentralized architecture | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) |
+| Large-scale node deployment | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) |
+| Sub-millisecond latency | ![CI (macOS)](https://github.com/mamedev/mame/workflows/CI%20(macOS)/badge.svg) | ![CI (macOS)](https://github.com/mamedev/mame/workflows/CI%20(macOS)/badge.svg) |
+| Opensource and controllable | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) |
+
 # Quick Start
 
 ## Installation on VMWare
