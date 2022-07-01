@@ -27,13 +27,20 @@ ZettaStor DBS provides enterprise-level business storage solutions with high ava
 
 # Quick Start
 
-## Installation on VMWare
+## Installation on CentOS
 
 If you're on a UNIX-like system (including Linux and macOS), it could be as easy as typing
 
 ```bash
 make install
 ```
+## Installation on Ubuntu
+```bash
+make install
+```
+
+# Where can I find out more?
+Documentation
 
 # Contributing
 
