@@ -9,15 +9,18 @@ English | [简体中文](README-CN.md)
 
 ZettaStor DBS provides enterprise-level business storage solutions with high availability, high performance, easy expansion and easy maintenance for large-scale virtualization, private cloud and container environments. It serves as a solid digital base for core applications.
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-
+- [x] IT技术架构升级：采用软件定义技术，池化共享存储资源，支持多场景应用，避免竖井架构
+- [x] 节约总体成本：基于标准服务器和IP网络硬件，完美兼容，比传统存储降低TCO60%以上
+- [x] 按需定制灵活扩容：横向扩展、线性扩容，性能容量按需增减，降低扩容成本
+- [x] 无缝迁移安全高效：原有系统无需修改，迁移简单，可视化操作
 
 
 | Features | Community Edition  | Enterprise Edition | 
 | ------------- | ------------- |  ------------- | 
 | Decentralized architecture | ![CI (Linux)](https://img.shields.io/badge/-supported-brightgreen)| ![CI (Linux)](https://img.shields.io/badge/-supported-brightgreen) |
+| 系统节点规模 | ![minimum](https://img.shields.io/badge/minimum-%E2%89%A53-blue) ![maximum](https://img.shields.io/badge/maximum-%E2%89%A510000-blue) | ![minimum](https://img.shields.io/badge/minimum-%E2%89%A53-blue) ![maximum](https://img.shields.io/badge/maximum-%E2%89%A510000-blue) |
+| 数据冗余模式 | ![redundancy](https://img.shields.io/badge/redundancy-2%20copies-blue) | ![redundancy](https://img.shields.io/badge/redundancy-2%20copies-blue) ![redundancy](https://img.shields.io/badge/redundancy-3%20copies-blue) |
+| 前端访问协议 | ![SCSI](https://img.shields.io/badge/-scsi-blue)  ![ISCSI](https://img.shields.io/badge/-iscsi-blue) | ![SCSI](https://img.shields.io/badge/-scsi-blue)  ![ISCSI](https://img.shields.io/badge/-iscsi-blue) ![CIFS](https://img.shields.io/badge/-cifs-blue)  ![NFS](https://img.shields.io/badge/-nfs-blue)  |
 | Large-scale node deployment | ![CI (Windows)](https://img.shields.io/badge/-supported-brightgreen) | ![CI (Windows)](https://img.shields.io/badge/-supported-brightgreen) |
 | Sub-millisecond latency | ![CI (macOS)](https://img.shields.io/badge/-supported-brightgreen) | ![CI (macOS)](https://img.shields.io/badge/-supported-brightgreen) |
 | Opensource and controllable | ![Build documentation](https://img.shields.io/badge/-unsupported-red)| ![Build documentation](https://img.shields.io/badge/-supported-brightgreen) |
