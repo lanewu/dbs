@@ -13,9 +13,11 @@ ZettaStor DBS provides enterprise-level business storage solutions with high ava
 - [ ] https://github.com/octo-org/octo-repo/issues/740
 - [ ] Add delight to the experience when all tasks are complete :tada:
 
+
+
 | Features | Community Edition  | Enterprise Edition | 
 | ------------- | ------------- |  ------------- | 
-| Decentralized architecture | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) |
+| Decentralized architecture | ![CI (Linux)](https://img.shields.io/badge/-supported-brightgreen?logo=cachet&logoColor=white) | ![CI (Linux)](https://img.shields.io/badge/-%E6%94%AF%E6%8C%81-brightgreen) |
 | Large-scale node deployment | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) |
 | Sub-millisecond latency | ![CI (macOS)](https://github.com/mamedev/mame/workflows/CI%20(macOS)/badge.svg) | ![CI (macOS)](https://github.com/mamedev/mame/workflows/CI%20(macOS)/badge.svg) |
 | Opensource and controllable | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) |
