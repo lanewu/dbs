@@ -17,10 +17,10 @@ ZettaStor DBS provides enterprise-level business storage solutions with high ava
 
 | Features | Community Edition  | Enterprise Edition | 
 | ------------- | ------------- |  ------------- | 
-| Decentralized architecture | ![CI (Linux)](https://img.shields.io/badge/-supported-brightgreen?logo=cachet&logoColor=white) | ![CI (Linux)](https://img.shields.io/badge/-%E6%94%AF%E6%8C%81-brightgreen) |
-| Large-scale node deployment | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) |
-| Sub-millisecond latency | ![CI (macOS)](https://github.com/mamedev/mame/workflows/CI%20(macOS)/badge.svg) | ![CI (macOS)](https://github.com/mamedev/mame/workflows/CI%20(macOS)/badge.svg) |
-| Opensource and controllable | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) |
+| Decentralized architecture | ![CI (Linux)](https://img.shields.io/badge/-supported-brightgreen)| ![CI (Linux)](https://img.shields.io/badge/-supported-brightgreen) |
+| Large-scale node deployment | ![CI (Windows)](https://img.shields.io/badge/-supported-brightgreen) | ![CI (Windows)](https://img.shields.io/badge/-supported-brightgreen) |
+| Sub-millisecond latency | ![CI (macOS)](https://img.shields.io/badge/-supported-brightgreen) | ![CI (macOS)](https://img.shields.io/badge/-supported-brightgreen) |
+| Opensource and controllable | ![Build documentation](https://img.shields.io/badge/-unsupported-red)| ![Build documentation](https://img.shields.io/badge/-supported-brightgreen) |
 
 # Quick Start
 
