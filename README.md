@@ -3,7 +3,7 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1486/badge)](https://bestpractices.coreinfrastructure.org/projects/1486)
 [![LICENSE](https://img.shields.io/badge/licence-AGPL--3-blue.png)](https://github.com/lanewu/dbs/blob/master/LICENSE)
 
-English | [简体中文](README-CN.md)
+English | [简体中文](README-zh.md)
 
 # What is ZettaStor DBS？
 
