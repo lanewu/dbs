@@ -42,17 +42,17 @@ make install
 # Where can I find out more?
 Documentation
 
-# Contributing
+# 贡献代码
 
-## Coding standard
-Source code should be viewed and edited with your editor set to use four spaces per tab. Tabs are used for initial indentation of lines, with one tab used per indentation level. Spaces are used for other alignment within a line.
+## 编码标准
+请在编辑器中设置4空格缩进后，查看和编辑本项目的源代码。制表符用于行的初始缩进，每个缩进级别使用一个制表符。空格用于一行内的其他对齐方式。
 
-Some parts of the code follow [Allman style](https://en.wikipedia.org/wiki/Indent_style#Allman_style); some parts of the code follow [K&R style](https://en.wikipedia.org/wiki/Indent_style#K.26R_style) -- mostly depending on who wrote the original version. **Above all else, be consistent with what you modify, and keep whitespace changes to a minimum when modifying existing source.** For new code, the majority tends to prefer Allman style, so if you don't care much, use that.
+部分代码遵循 [Allman 风格](https://en.wikipedia.org/wiki/Indent_style#Allman_style)；部分代码遵循 [K&R 风格](https://en.wikipedia.org/wiki/Indent_style#K.26R_style) ———— 这主要取决于最初的版本。 **最重要的是，您修改代码的时候请保持一致，并在修改现有源代码时将空格更改保持在最低限度。** 对于新代码，大多数人倾向于 Allman 风格，因此请尽量使用这种风格。
 
-## Submit your code
-After finishing the development of your code, you should submit a pull request to master branch and fill out a pull request template. The pull request will trigger the CI automatically, and the code will only be merged after passing the CI and being reviewed. The Jenkins username and password of CI is netease/netease. If the CI fails to run, you can login to the Jenkins platform to view the reason for the failure.While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
+## 提交代码
+完成代码开发后，您应该向 master 分支提交拉取请求 (PR) 并填写拉取请求模板。拉取请求会自动触发持续整合 (CI) 流程，代码只有在通过 CI 并审核后才会被合并。 如果 CI 运行失败，您可以登录 Jenkins 平台查看失败原因。虽然在审核您的 PR 之前必须满足上述先决条件，但审核者可能会要求您完成额外的设计工作、测试、或其他更改，然后才能最终接受 PR。
 
-For more details, please refer to [CONTRIBUTING](CONTRIBUTING.md).
+更多详细信息，请参阅 [CONTRIBUTING](CONTRIBUTING.md)。
 
-# License
+# 许可证
 [AGPL 3.0](LICENSE)
