@@ -51,6 +51,14 @@ make install
 
 # 贡献代码
 
+## 当前构建状态
+| 操作系统/编译环境   | 状态        | 
+| ------------- |:-------------:| 
+| CentOS/Java 8 | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) |
+| Ubuntu/Java 8 | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) |
+| UI | ![Compile UI translations](https://github.com/mamedev/mame/workflows/Compile%20UI%20translations/badge.svg) |
+| 文档 | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) |
+
 ## 编码标准
 请在编辑器中设置4空格缩进后，查看和编辑本项目的源代码。制表符用于行的初始缩进，每个缩进级别使用一个制表符。空格用于一行内的其他对齐方式。
 
