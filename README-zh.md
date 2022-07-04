@@ -25,22 +25,29 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 | 数据冗余模式 | ![redundancy](https://img.shields.io/badge/-2%20副本-blue) | ![redundancy](https://img.shields.io/badge/-2%20副本-blue) ![redundancy](https://img.shields.io/badge/-3%20副本-blue) |
 | 前端访问协议 | ![SCSI](https://img.shields.io/badge/-scsi-blue)  ![ISCSI](https://img.shields.io/badge/-iscsi-blue) | ![SCSI](https://img.shields.io/badge/-scsi-blue)  ![ISCSI](https://img.shields.io/badge/-iscsi-blue) ![CIFS](https://img.shields.io/badge/-cifs-blue)  ![NFS](https://img.shields.io/badge/-nfs-blue)  |
 
-# Quick Start
+# 快速上手
+如果您使用的是类 UNIX 系统（如 Linux），可以通过键入下列命令进行编译和安装：
 
-## Installation on CentOS
+## 在 CentOS 系统编译
+```bash
+make
+```
+## 在 Ubuntu 系统编译
+```bash
+make
+```
 
-If you're on a UNIX-like system (including Linux and macOS), it could be as easy as typing
-
+## 在 CentOS 系统安装
 ```bash
 make install
 ```
-## Installation on Ubuntu
+## 在 Ubuntu 系统安装
 ```bash
 make install
 ```
 
-# Where can I find out more?
-Documentation
+# 更多文档
+请参阅 [详细开发文档和使用说明](https://github.com/lanewu/dbs/wiki)。
 
 # 贡献代码
 
