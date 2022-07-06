@@ -9,9 +9,9 @@ English | [简体中文](README-zh.md)
 
 ZettaStor DBS provides enterprise-level business storage solutions with high availability, high performance, easy expansion and easy maintenance for large-scale virtualization, private cloud and container environments. It serves as a solid digital base for core applications.
 
-- [x] IT architecture upgrade: software-defined technology, pool shared storage resources, multi-scenario applications support, silo-free environment
-- [x] Cost saving: reducing TCO by more than 60% compared to traditional storage, based on standard servers and compatible network hardwares
-- [x] On-demand customization and flexible expansion: horizontal and linear expansion, on-demand performance and capacity, lower expansion costs
+- [x] IT architecture upgrade: software-defined technology, storage resource pooling, multi-scenario applications support, silo-free environment
+- [x] Cost saving: reducing TCO by more than 60% compared to traditional storage, based on standard servers and network hardwares
+- [x] On-demand customization and flexible expansion: horizontal and linear expansion, on-demand performance and capacity, lower costs
 - [x] Safe, efficient and seamless migration: the original system remains untouched, with simple and visualized migration process
 
 | Features | Community Edition  | Enterprise Edition | 
