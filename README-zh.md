@@ -60,9 +60,9 @@ make install
 | 文档 | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) |
 
 ## 编码标准
-请在编辑器中设置4空格缩进后，查看和编辑本项目的源代码。制表符用于行的初始缩进，每个缩进级别使用一个制表符。空格用于一行内的其他对齐方式。
+请在编辑器中设置2空格缩进后，查看和编辑本项目的源代码，每个缩进级别使用一次缩进。空格可用于一行内的其他对齐方式。
 
-部分代码遵循 [Allman 风格](https://en.wikipedia.org/wiki/Indent_style#Allman_style)；部分代码遵循 [K&R 风格](https://en.wikipedia.org/wiki/Indent_style#K.26R_style) ———— 这主要取决于最初的版本。 **最重要的是，您修改代码的时候请保持一致，并在修改现有源代码时将空格更改保持在最低限度。** 对于新代码，大多数人倾向于 Allman 风格，因此请尽量使用这种风格。
+大部分代码遵循 [Google Java 风格](https://google.github.io/styleguide/javaguide.html)；也有一些代码遵循 [Oracle 编码约定](https://www.oracle.com/java/technologies/javase/codeconventions-contents.html) —— 这主要取决于最初的版本。 **最重要的是，您修改代码的时候请保持一致，并在修改现有源代码时将空格更改保持在最低限度。** 对于新代码，请使用 Google Java 风格。
 
 ## 提交代码
 完成代码开发后，您应该向 master 分支提交拉取请求 (PR) 并填写拉取请求模板。拉取请求会自动触发持续整合 (CI) 流程，代码只有在通过 CI 并审核后才会被合并。 如果 CI 运行失败，您可以登录 Jenkins 平台查看失败原因。虽然在审核您的 PR 之前必须满足上述先决条件，但审核者可能会要求您完成额外的设计工作、测试、或其他更改，然后才能最终接受 PR。
