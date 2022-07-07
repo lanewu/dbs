@@ -20,10 +20,10 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 | 去中心化架构 | ![CI (Linux)](https://img.shields.io/badge/-支持-brightgreen)| ![CI (Linux)](https://img.shields.io/badge/-支持-brightgreen) |
 | 亚毫秒级延迟 | ![CI (macOS)](https://img.shields.io/badge/-支持-brightgreen) | ![CI (macOS)](https://img.shields.io/badge/-支持-brightgreen) |
 | 大规模节点部署 | ![CI (Windows)](https://img.shields.io/badge/-支持-brightgreen) | ![CI (Windows)](https://img.shields.io/badge/-支持-brightgreen) |
+| 卷操作 | ![create](https://img.shields.io/badge/-创建-blue) ![delete](https://img.shields.io/badge/-删除-blue) ![details](https://img.shields.io/badge/-详情-blue) ![resize](https://img.shields.io/badge/-扩展-blue) | ![create](https://img.shields.io/badge/-创建-blue) ![delete](https://img.shields.io/badge/-删除-blue) ![details](https://img.shields.io/badge/-详情-blue) ![resize](https://img.shields.io/badge/-扩展-blue) ![migrate](https://img.shields.io/badge/-迁移-brightgreen) ![clone](https://img.shields.io/badge/-克隆-brightgreen) ![copy](https://img.shields.io/badge/-拷贝-brightgreen) ![snapshot](https://img.shields.io/badge/-快照-brightgreen) |
+| QoS 策略 | ![rebalance](https://img.shields.io/badge/-负载均衡-blue) | ![rebalance](https://img.shields.io/badge/-负载均衡-blue) ![access](https://img.shields.io/badge/-数据访问-brightgreen) ![rebuild](https://img.shields.io/badge/-数据重构-brightgreen) |
+| 驱动 |  | ![csi](https://img.shields.io/badge/-Kubernetes%20CSI-brightgreen) |
 | 实时技术支持 | ![Build documentation](https://img.shields.io/badge/-不支持-red)| ![Build documentation](https://img.shields.io/badge/-支持-brightgreen) |
-| 系统节点规模 | ![minimum](https://img.shields.io/badge/最小-%E2%89%A53-blue) ![maximum](https://img.shields.io/badge/最大-%E2%89%A510000-blue) | ![minimum](https://img.shields.io/badge/最小-%E2%89%A53-blue) ![maximum](https://img.shields.io/badge/最大-%E2%89%A510000-blue) |
-| 数据冗余模式 | ![redundancy](https://img.shields.io/badge/-2%20副本-blue) | ![redundancy](https://img.shields.io/badge/-2%20副本-blue) ![redundancy](https://img.shields.io/badge/-3%20副本-blue) |
-| 前端访问协议 | ![SCSI](https://img.shields.io/badge/-scsi-blue)  ![ISCSI](https://img.shields.io/badge/-iscsi-blue) | ![SCSI](https://img.shields.io/badge/-scsi-blue)  ![ISCSI](https://img.shields.io/badge/-iscsi-blue) ![CIFS](https://img.shields.io/badge/-cifs-blue)  ![NFS](https://img.shields.io/badge/-nfs-blue)  |
 
 # 快速上手
 如果您使用的是类 UNIX 系统（如 Linux），可以通过键入下列命令进行编译和安装：
