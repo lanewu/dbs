@@ -27,7 +27,7 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 | 节点管理 | ![nodegui](https://img.shields.io/badge/-图形界面-brightgreen) | ![nodegui](https://img.shields.io/badge/-图形界面-brightgreen) |
 | 服务管理 | ![servicecli](https://img.shields.io/badge/-命令行-blue) | ![servicegui](https://img.shields.io/badge/-图形界面-brightgreen) |
 | 告警管理 | ![unsupported](https://img.shields.io/badge/-不支持-red) | ![alarmgui](https://img.shields.io/badge/-图形界面-brightgreen) |
-| 高可用架构 | ![dic](https://img.shields.io/badge/-分布式InfoCenter-blue) ![restore](https://img.shields.io/badge/-数据库恢复-blue) | ![dic](https://img.shields.io/badge/-分布式InfoCenter-blue) ![restore](https://img.shields.io/badge/-数据库恢复-blue) ![distdb](https://img.shields.io/badge/-分布式数据库-brightgreen) |
+| 高可用架构 | ![noint](https://img.shields.io/badge/-业务不中断-blue) ![restore](https://img.shields.io/badge/-数据库恢复-blue) ![dic](https://img.shields.io/badge/-分布式InfoCenter-blue) | ![noint](https://img.shields.io/badge/-业务不中断-blue) ![restore](https://img.shields.io/badge/-数据库恢复-blue) ![dic](https://img.shields.io/badge/-分布式InfoCenter-blue) ![distdb](https://img.shields.io/badge/-分布式数据库-brightgreen) |
 | 技术支持 | ![community](https://img.shields.io/badge/-社区-blue) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
 
 # 快速上手
