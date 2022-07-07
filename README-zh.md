@@ -17,19 +17,18 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 
 | 功能特性 | 社区版  | 商业版 | 
 | ------------- | ------------- |  ------------- | 
-| 去中心化架构 | ![CI (Linux)](https://img.shields.io/badge/-支持-brightgreen)| ![CI (Linux)](https://img.shields.io/badge/-支持-brightgreen) |
-| 亚毫秒级延迟 | ![CI (macOS)](https://img.shields.io/badge/-支持-brightgreen) | ![CI (macOS)](https://img.shields.io/badge/-支持-brightgreen) |
-| 大规模节点部署 | ![CI (Windows)](https://img.shields.io/badge/-支持-brightgreen) | ![CI (Windows)](https://img.shields.io/badge/-支持-brightgreen) |
-| 4.2 域管理 | ![supported](https://img.shields.io/badge/-支持-brightgreen) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
-| 4.3 存储池管理 | ![supported](https://img.shields.io/badge/-支持-brightgreen) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
-| 4.4 存储卷操作 | ![create](https://img.shields.io/badge/-创建-blue) ![delete](https://img.shields.io/badge/-删除-blue) ![details](https://img.shields.io/badge/-详情-blue) ![resize](https://img.shields.io/badge/-扩展-blue) | ![create](https://img.shields.io/badge/-创建-blue) ![delete](https://img.shields.io/badge/-删除-blue) ![details](https://img.shields.io/badge/-详情-blue) ![resize](https://img.shields.io/badge/-扩展-blue) ![migrate](https://img.shields.io/badge/-迁移-brightgreen) ![clone](https://img.shields.io/badge/-克隆-brightgreen) ![copy](https://img.shields.io/badge/-拷贝-brightgreen) ![snapshot](https://img.shields.io/badge/-快照-brightgreen) |
-| 4.6 存储访问控制 | ![unsupported](https://img.shields.io/badge/-不支持-red) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
-| 4.8 存储QoS策略 | ![rebalance](https://img.shields.io/badge/-负载均衡-blue) | ![rebalance](https://img.shields.io/badge/-负载均衡-blue) ![access](https://img.shields.io/badge/-数据访问-brightgreen) ![rebuild](https://img.shields.io/badge/-数据重构-brightgreen) |
-| 5.1 磁盘管理 | ![mount](https://img.shields.io/badge/-挂载-blue) ![umount](https://img.shields.io/badge/-卸载-blue) | ![mount](https://img.shields.io/badge/-挂载-blue) ![umount](https://img.shields.io/badge/-卸载-blue) ![diskled](https://img.shields.io/badge/-磁盘点灯-brightgreen) |
-| 6.3 服务管理 | ![servicecli](https://img.shields.io/badge/-命令行-blue) | ![servicegui](https://img.shields.io/badge/-图形界面-brightgreen) |
-| 6.2 告警管理 | ![unsupported](https://img.shields.io/badge/-不支持-red) | ![alarmgui](https://img.shields.io/badge/-图形界面-brightgreen) |
-| 驱动 |  | ![csi](https://img.shields.io/badge/-Kubernetes%20CSI-brightgreen) |
-| 实时技术支持 | ![unsupported](https://img.shields.io/badge/-不支持-red) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
+| 域管理 | ![supported](https://img.shields.io/badge/-支持-brightgreen) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
+| 存储池 | ![supported](https://img.shields.io/badge/-支持-brightgreen) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
+| 存储卷 | ![create](https://img.shields.io/badge/-创建-blue) ![delete](https://img.shields.io/badge/-删除-blue) ![resize](https://img.shields.io/badge/-扩展-blue) ![wts](https://img.shields.io/badge/-直写模式-blue) | ![create](https://img.shields.io/badge/-创建-blue) ![delete](https://img.shields.io/badge/-删除-blue) ![resize](https://img.shields.io/badge/-扩展-blue) ![migrate](https://img.shields.io/badge/-迁移-brightgreen) ![clone](https://img.shields.io/badge/-克隆-brightgreen) ![copy](https://img.shields.io/badge/-拷贝-brightgreen) ![snapshot](https://img.shields.io/badge/-快照-brightgreen) ![wts](https://img.shields.io/badge/-直写模式-blue) ![cache](https://img.shields.io/badge/-缓存加速-brightgreen) |
+| 存储访问控制 | ![unsupported](https://img.shields.io/badge/-不支持-red) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
+| 存储驱动 | ![supported](https://img.shields.io/badge/-支持-brightgreen) | ![supported](https://img.shields.io/badge/-支持-brightgreen) ![csi](https://img.shields.io/badge/-Kubernetes%20CSI适配-brightgreen) |
+| 存储QoS策略 | ![rebalance](https://img.shields.io/badge/-负载均衡-blue) | ![rebalance](https://img.shields.io/badge/-负载均衡-blue) ![access](https://img.shields.io/badge/-数据访问-brightgreen) ![rebuild](https://img.shields.io/badge/-数据重构-brightgreen) |
+| 磁盘管理 | ![mount](https://img.shields.io/badge/-挂载-blue) ![umount](https://img.shields.io/badge/-卸载-blue) | ![mount](https://img.shields.io/badge/-挂载-blue) ![umount](https://img.shields.io/badge/-卸载-blue) ![diskled](https://img.shields.io/badge/-磁盘点灯-brightgreen) |
+| 节点管理 | ![nodegui](https://img.shields.io/badge/-图形界面-brightgreen) | ![nodegui](https://img.shields.io/badge/-图形界面-brightgreen) |
+| 服务管理 | ![servicecli](https://img.shields.io/badge/-命令行-blue) | ![servicegui](https://img.shields.io/badge/-图形界面-brightgreen) |
+| 告警管理 | ![unsupported](https://img.shields.io/badge/-不支持-red) | ![alarmgui](https://img.shields.io/badge/-图形界面-brightgreen) |
+| 高可用架构 | ![dic](https://img.shields.io/badge/-分布式InfoCenter-blue) ![restore](https://img.shields.io/badge/-数据库恢复-blue) | ![dic](https://img.shields.io/badge/-分布式InfoCenter-blue) ![restore](https://img.shields.io/badge/-数据库恢复-blue) ![distdb](https://img.shields.io/badge/-分布式数据库-brightgreen) |
+| 技术支持 | ![community](https://img.shields.io/badge/-社区-blue) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
 
 # 快速上手
 如果您使用的是类 UNIX 系统（如 Linux），可以通过键入下列命令进行编译和安装：
