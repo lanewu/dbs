@@ -31,7 +31,7 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 | 技术支持 | ![community](https://img.shields.io/badge/-社区-blue) | ![supported](https://img.shields.io/badge/-支持-brightgreen) |
 
 # 快速上手
-如果您使用的是类 UNIX 系统（如 Linux），可以通过键入下列命令进行编译和安装：
+如果您使用的是类 UNIX 系统（如 Linux），可以通过键入下列命令安装编译所需要的软件包：
 
 ## CentOS 7 / CentOS 8 编译环境
 ```bash
@@ -57,9 +57,9 @@ curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v3.5.1/pr
 unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
 ```
 
-## 编译
+## 编译命令
+使用下列 Maven 命令编译软件包：
 ```bash
-#根据系统安装情况更新pom.xml中相应的版本号
 mvn versions:use-dep-version -DdepVersion=$(thrift --version | awk '{print $3}') -Dincludes=org.apache.thrift:libthrift
 mvn versions:use-dep-version -DdepVersion=$(protoc --version | awk '{print $2}') -Dincludes=com.google.protobuf:protobuf-java
 mvn clean install
