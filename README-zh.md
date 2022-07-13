@@ -33,13 +33,13 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 # 快速上手
 如果您使用的是类 UNIX 系统（如 Linux），可以通过键入下列命令安装编译所需要的软件包：
 
-## CentOS 7 / CentOS 8 编译环境
+## CentOS 7 编译环境
 ```bash
 yum install epel-release
 yum install maven thrift protobuf-compiler
 ```
 
-## RHEL 8 编译环境
+## CentOS 8 / RHEL 8 编译环境
 ```bash
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 yum install maven thrift protobuf-compiler
