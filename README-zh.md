@@ -33,22 +33,36 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 # 快速上手
 如果您使用的是类 UNIX 系统（如 Linux），可以通过键入下列命令进行编译和安装：
 
-## 在 CentOS 系统编译
+## CentOS 7 / CentOS 8 编译环境
 ```bash
-make
-```
-## 在 Ubuntu 系统编译
-```bash
-make
+yum install epel-release
+yum install maven thrift protobuf-compiler
 ```
 
-## 在 CentOS 系统安装
+## RHEL 8 编译环境
 ```bash
-make install
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+yum install maven thrift protobuf-compiler
 ```
-## 在 Ubuntu 系统安装
+
+## Debian 11 / Ubuntu 18 / Ubuntu 20 编译环境
 ```bash
-make install
+apt-get install maven thrift-compiler protobuf-compiler
+```
+
+## openSUSE 15 编译环境
+```bash
+zypper install maven thrift curl unzip
+curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
+unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
+```
+
+## 编译
+```bash
+#根据系统安装情况更新pom.xml中相应的版本号
+mvn versions:use-dep-version -DdepVersion=$(thrift --version | awk '{print $3}') -Dincludes=org.apache.thrift:libthrift
+mvn versions:use-dep-version -DdepVersion=$(protoc --version | awk '{print $2}') -Dincludes=com.google.protobuf:protobuf-java
+mvn clean install
 ```
 
 # 更多文档
