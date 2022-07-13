@@ -58,7 +58,7 @@ unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
 ```
 
 ## 编译命令
-使用下列 Maven 命令编译软件包：
+在pom.xml所在目录，使用下列 Maven 命令编译软件包：
 ```bash
 mvn versions:use-dep-version -DdepVersion=$(thrift --version | awk '{print $3}') -Dincludes=org.apache.thrift:libthrift
 mvn versions:use-dep-version -DdepVersion=$(protoc --version | awk '{print $2}') -Dincludes=com.google.protobuf:protobuf-java
