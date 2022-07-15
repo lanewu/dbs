@@ -26,16 +26,39 @@ ZettaStor DBS provides enterprise-level business storage solutions with high ava
 
 # Quick Start
 
-## Installation on CentOS
+If you're on a UNIX-like system (including Linux), the packages required for compilation can be installed by the folowing commands
 
-If you're on a UNIX-like system (including Linux and macOS), it could be as easy as typing
-
+## CentOS 7
 ```bash
-make install
+yum install epel-release
+yum install maven thrift protobuf-compiler
 ```
-## Installation on Ubuntu
+
+## CentOS 8 / RHEL 8
 ```bash
-make install
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+yum install maven thrift protobuf-compiler
+```
+
+## Debian 11 / Ubuntu 18 / Ubuntu 20
+```bash
+apt-get install maven thrift-compiler protobuf-compiler
+```
+
+## openSUSE 15
+```bash
+zypper install maven thrift curl unzip
+curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
+unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
+```
+
+## Build from source
+在pom.xml所在目录，使用下列 Maven 命令编译软件包：
+To build the package, Use the following commands in the directory where pom.xml is located
+```bash
+mvn versions:use-dep-version -DdepVersion=$(thrift --version | awk '{print $3}') -Dincludes=org.apache.thrift:libthrift
+mvn versions:use-dep-version -DdepVersion=$(protoc --version | awk '{print $2}') -Dincludes=com.google.protobuf:protobuf-java
+mvn clean install
 ```
 
 # Where can I find out more?
