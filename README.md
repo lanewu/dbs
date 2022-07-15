@@ -53,7 +53,6 @@ unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
 ```
 
 ## Build from source
-在pom.xml所在目录，使用下列 Maven 命令编译软件包：
 To build the package, Use the following commands in the directory where pom.xml is located
 ```bash
 mvn versions:use-dep-version -DdepVersion=$(thrift --version | awk '{print $3}') -Dincludes=org.apache.thrift:libthrift
