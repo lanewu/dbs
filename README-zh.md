@@ -73,9 +73,7 @@ mvn clean install
 ## 当前构建状态
 | 操作系统/编译环境   | 状态        | 
 | ------------- |:-------------:| 
-| CentOS/Java 8 | ![CI (Linux)](https://github.com/mamedev/mame/workflows/CI%20(Linux)/badge.svg) |
-| Ubuntu/Java 8 | ![CI (Windows)](https://github.com/mamedev/mame/workflows/CI%20(Windows)/badge.svg) |
-| UI | ![Compile UI translations](https://github.com/mamedev/mame/workflows/Compile%20UI%20translations/badge.svg) |
+| CentOS/Java 8 | ![testci-demo](https://github.com/lanewu/testci/actions/workflows/github-actions-demo.yml/badge.svg) |
 | 文档 | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) |
 
 ## 编码标准
