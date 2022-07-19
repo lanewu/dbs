@@ -36,23 +36,23 @@ ZettaStor DBS 可为大规模虚拟化、私有云和容器环境，提供高可
 ## CentOS 7 编译环境
 ```bash
 yum install epel-release
-yum install maven thrift protobuf-compiler
+yum install net-tools maven thrift protobuf-compiler
 ```
 
 ## CentOS 8 / RHEL 8 编译环境
 ```bash
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-yum install maven thrift protobuf-compiler
+yum install net-tools maven thrift protobuf-compiler
 ```
 
 ## Debian 11 / Ubuntu 18 / Ubuntu 20 编译环境
 ```bash
-apt-get install maven thrift-compiler protobuf-compiler
+apt install net-tools maven thrift-compiler protobuf-compiler
 ```
 
 ## openSUSE 15 编译环境
 ```bash
-zypper install maven thrift curl unzip
+zypper install net-tools-deprecated maven thrift curl unzip
 curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
 unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
 ```
