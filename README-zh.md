@@ -76,8 +76,8 @@ mvn clean install
 ## 当前构建状态
 | 操作系统/编译环境   | 状态        | 
 | ------------- |:-------------:| 
-| CentOS/Java 8 | ![testci-demo](https://github.com/lanewu/testci/actions/workflows/github-actions-demo.yml/badge.svg) |
-| 文档 | ![Build documentation](https://github.com/mamedev/mame/workflows/Build%20documentation/badge.svg) |
+| Ubuntu 18/Java 8 | ![ubuntu18_jdk8](https://github.com/lanewu/testci/actions/workflows/ubuntu18_jdk8.yml/badge.svg) |
+| Ubuntu 20/Java 11 | ![ubuntu20_jdk11](https://github.com/lanewu/testci/actions/workflows/ubuntu20_jdk11.yml/badge.svg) |
 
 ## 编码标准
 请在编辑器中设置2空格缩进后，查看和编辑本项目的源代码，每个缩进级别使用一次缩进。空格可用于一行内的其他对齐方式。
