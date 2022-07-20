@@ -28,26 +28,29 @@ ZettaStor DBS provides enterprise-level business storage solutions with high ava
 
 If you're on a UNIX-like system (including Linux), the packages required for compilation can be installed by the folowing commands
 
-## CentOS 7
+## CentOS 7 / RHEL 7
 ```bash
-yum install epel-release
-yum install maven thrift protobuf-compiler
+yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+yum install net-tools maven thrift protobuf-compiler
 ```
 
 ## CentOS 8 / RHEL 8
 ```bash
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-yum install maven thrift protobuf-compiler
+yum install net-tools maven compat-openssl10 protobuf-compiler
+yum install https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/t/thrift-0.9.1-15.el7.x86_64.rpm
 ```
 
-## Debian 11 / Ubuntu 18 / Ubuntu 20
+## Debian 10 / Debian 11 / Ubuntu 18 / Ubuntu 20
 ```bash
-apt-get install maven thrift-compiler protobuf-compiler
+sudo apt install net-tools curl maven protobuf-compiler
+curl -LO http://ftp.debian.org/debian/pool/main/t/thrift-compiler/thrift-compiler_0.9.1-2.1+b1_amd64.deb
+sudo dpkg -i thrift-compiler_0.9.1-2.1+b1_amd64.deb
 ```
 
 ## openSUSE 15
 ```bash
-zypper install maven thrift curl unzip
+zypper install net-tools-deprecated curl unzip maven thrift
 curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
 unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
 ```
