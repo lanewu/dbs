@@ -45,14 +45,21 @@ yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.r
 yum install net-tools maven thrift protobuf-compiler
 ```
 
-## Debian 11 / Ubuntu 18 / Ubuntu 20 编译环境
+## Debian 11 / Ubuntu 18 编译环境
 ```bash
-apt install net-tools maven thrift-compiler protobuf-compiler
+sudo apt install net-tools maven thrift-compiler protobuf-compiler
+```
+
+## Ubuntu 20 编译环境
+```bash
+sudo apt install net-tools curl maven protobuf-compiler
+curl -LO http://old-releases.ubuntu.com/ubuntu/pool/universe/t/thrift-compiler/thrift-compiler_0.9.1-2.1_amd64.deb
+sudo dpkg -i thrift-compiler_0.9.1-2_amd64.deb
 ```
 
 ## openSUSE 15 编译环境
 ```bash
-zypper install net-tools-deprecated maven thrift curl unzip
+zypper install net-tools-deprecated curl unzip maven thrift
 curl -LO https://github.com/protocolbuffers/protobuf/releases/download/v3.5.1/protoc-3.5.1-linux-x86_64.zip
 unzip protoc-3.5.1-linux-x86_64.zip -d /usr/local
 ```
