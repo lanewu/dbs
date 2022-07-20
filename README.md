@@ -43,7 +43,7 @@ yum install https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/t/thrift-0.9
 
 ## Debian 10 / Debian 11 / Ubuntu 18 / Ubuntu 20
 ```bash
-sudo apt install net-tools curl maven protobuf-compiler
+sudo apt-get install net-tools curl maven protobuf-compiler
 curl -LO http://ftp.debian.org/debian/pool/main/t/thrift-compiler/thrift-compiler_0.9.1-2.1+b1_amd64.deb
 sudo dpkg -i thrift-compiler_0.9.1-2.1+b1_amd64.deb
 ```
