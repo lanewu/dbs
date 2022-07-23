@@ -76,6 +76,8 @@ mvn clean install
 ## 当前构建状态
 | 操作系统/编译环境   | 状态        | 
 | ------------- |:-------------:| 
+| CentOS 7/Java 8 | ![centos7_jdk8](https://github.com/lanewu/testci/actions/workflows/centos7_jdk8.yml/badge.svg) |
+| CentOS 8/Java 8 | ![centos8_jdk8](https://github.com/lanewu/testci/actions/workflows/centos8_jdk8.yml/badge.svg) |
 | Ubuntu 18/Java 8 | ![ubuntu18_jdk8](https://github.com/lanewu/testci/actions/workflows/ubuntu18_jdk8.yml/badge.svg) |
 | Ubuntu 20/Java 11 | ![ubuntu20_jdk11](https://github.com/lanewu/testci/actions/workflows/ubuntu20_jdk11.yml/badge.svg) |
 
